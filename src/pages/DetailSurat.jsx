@@ -46,6 +46,9 @@ const DetailSurat = () => {
                   <span className=" align-items-center arabic-text">
                     {ayat.teksArab}
                   </span>
+                  <span className=" align-items-center indonesia-text">
+                    {ayat.teksIndonesia}
+                  </span>
                   <div className=" d-flex align-items-center">
                     <span className="badge text-bg-primary rounded-sm d-flex align-items-center p-2 me-1">
                       {ayat.nomorAyat}
