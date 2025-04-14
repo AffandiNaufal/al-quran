@@ -20,6 +20,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Dashboard />}></Route>
                 <Route path="/surat/:id" element={<DetailSurat />}></Route>
+                <Route path="/" element={<About />}></Route>
               </Routes>
             </Content>
           </div>
