@@ -1,7 +1,7 @@
 // import "./App.css";
 import Navbar from "./components/Navbar";
 import Content from "./components/Content";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import DetailSurat from "./pages/DetailSurat";
 import About from "./pages/About";
