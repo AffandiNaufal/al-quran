@@ -4,6 +4,7 @@ import Content from "./components/Content";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import DetailSurat from "./pages/DetailSurat";
+import About from "./pages/About";
 
 function App() {
   return (
